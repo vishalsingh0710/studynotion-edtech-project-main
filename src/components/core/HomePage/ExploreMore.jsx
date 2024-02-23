@@ -69,7 +69,7 @@ const ExploreMore = () => {
               setCurrentCard={setCurrentCard}
             />
           );
-        })}
+        })} 
       </div>
     </div>
   );
