@@ -10,7 +10,6 @@ const tabsName = [
   "Skills paths",
   "Career paths",
 ];
-
 const ExploreMore = () => {
   const [currentTab, setCurrentTab] = useState(tabsName[0]);
   const [courses, setCourses] = useState(HomePageExplore[0].courses);
@@ -37,6 +36,7 @@ const ExploreMore = () => {
           </p>
         </div>
       </div>
+
 
       {/* Tabs Section */}
       <div className="hidden lg:flex gap-5 -mt-5 mx-auto w-max bg-richblack-800 text-richblack-200 p-1 rounded-full font-medium drop-shadow-[0_1.5px_rgba(255,255,255,0.25)]">

@@ -1,11 +1,7 @@
 import { useEffect } from "react"
 import "./App.css"
-// Redux
 import { useDispatch, useSelector } from "react-redux"
-// React Router
 import { Route, Routes, useNavigate } from "react-router-dom"
-
-// Components
 import Navbar from "./components/Common/Navbar"
 import OpenRoute from "./components/core/Auth/OpenRoute"
 import PrivateRoute from "./components/core/Auth/PrivateRoute"
